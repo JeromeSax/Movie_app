@@ -5,10 +5,10 @@ import styled from 'styled-components';
 import Footer from './components/Footer';
 
 const Container = styled.div`
-  width: 80%;
+  width: 100%;
   margin: auto;
   text-align: center;
-  background-color: #FF1493;
+  background-color: DarkOrange;
 `
 
 function App() {
