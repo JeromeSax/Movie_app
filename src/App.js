@@ -36,6 +36,7 @@ function App() {
   return (
     <>
       <Container>
+        <h1>Movie Search</h1>
         <Form movieSearch={getMovie} />
         <MovieDisplay movie={movie} />
       </Container>
