@@ -3,6 +3,8 @@ import {useState} from 'react'
 
 function Form({movieSearch}) {
 
+    
+
     const [form, setForm] = useState({
         searchTerm: ''
     });
@@ -18,13 +20,14 @@ function Form({movieSearch}) {
     const handleSubmit = (e) => {
         e.preventDefault();
         movieSearch(form.searchTerm);
+        form.searchTerm="";
     }
 
   return (
     <div>
         <form onSubmit={handleSubmit}>
             <input type="text" value={form.searchTerm} onChange={handleChange} />
-            <input type="submit" value="submit" />
+            <input type="submit" value="search" />
         </form>
     </div>
   )

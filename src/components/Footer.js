@@ -31,7 +31,7 @@ export default function Footer() {
                     <SocialIcons />
                     
 
-                <p>&copy; 2023 BigRome Movies. All rights reserved</p>
+                <p>&copy; 2023 Movie-Verse Search. All rights reserved</p>
             </Container>
         </StyledFooter>
     )

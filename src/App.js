@@ -3,12 +3,16 @@ import MovieDisplay from "./components/MovieDisplay";
 import { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import Footer from './components/Footer';
+// import "./App.css";
 
 const Container = styled.div`
   width: 100%;
   margin: auto;
   text-align: center;
-  background-color: DarkOrange;
+  background-color: Black;
+  color: GreenYellow;
+  border-radius: 20px 20px 0 0;
+  font-family: Arial, Helvetica, sans-serif;
 `
 
 function App() {
@@ -35,8 +39,8 @@ function App() {
 
   return (
     <>
-      <Container>
-        <h1>Movie Search</h1>
+      <Container className="App">
+        <h1>Movie-Verse</h1>
         <Form movieSearch={getMovie} />
         <MovieDisplay movie={movie} />
       </Container>

@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-    background-color: DarkMagenta;
-    color: black;
+    color: GreenYellow;
     padding: 100px 0 60px;
+    background-color: Black;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
+    font-weight: bold;
+    border-radius: 0 0 20px 20px;
 
     ul {
     list-style-type: none;
