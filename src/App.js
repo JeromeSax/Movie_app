@@ -1,7 +1,8 @@
 import Form from "./components/Form";
 import MovieDisplay from "./components/MovieDisplay";
 import { useState, useEffect } from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
+import Footer from './components/Footer';
 
 const Container = styled.div`
   width: 80%;
@@ -38,6 +39,7 @@ function App() {
         <Form movieSearch={getMovie} />
         <MovieDisplay movie={movie} />
       </Container>
+      <Footer />
 
 
     </>
