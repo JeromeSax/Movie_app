@@ -7,6 +7,7 @@ const Container = styled.div`
   width: 80%;
   margin: auto;
   text-align: center;
+  background-color: #FF1493;
 `
 
 function App() {
