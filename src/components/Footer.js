@@ -1,3 +1,4 @@
+import SocialIcons from "./SocialIcons";
 import { Container } from "./styles/Container.styled";
 import { StyledFooter } from "./styles/Footer.styled";
 
@@ -13,7 +14,7 @@ export default function Footer() {
                             eiusmod tempor incididunt ut labore et dolore magna aliqua
                         </li>
                         <li>+1-543-123-4567</li>
-                        <li>example@huddle.com</li>
+                        <li>example@romeyrome.com</li>
                     </ul>
                     <ul>
                         <li>About Us</li>
@@ -27,9 +28,10 @@ export default function Footer() {
                         <li>Contact Us</li>
                     </ul>
 
+                    <SocialIcons />
                     
 
-                <p>&copy; 2021 Huddle. All rights reserved</p>
+                <p>&copy; 2023 BigRome Movies. All rights reserved</p>
             </Container>
         </StyledFooter>
     )
