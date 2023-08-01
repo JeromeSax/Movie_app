@@ -10,6 +10,7 @@ const Container = styled.div`
   margin: auto;
   text-align: center;
   background-color: Black;
+  font-size: 15px;
   color: GreenYellow;
   border-radius: 20px 20px 0 0;
   font-family: Arial, Helvetica, sans-serif;

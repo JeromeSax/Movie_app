@@ -1,9 +1,10 @@
 import React from 'react'
 import {useState} from 'react'
+import { StyledForm } from "./styles/Form.styled";
 
 function Form({movieSearch}) {
 
-    
+
 
     const [form, setForm] = useState({
         searchTerm: ''
@@ -25,10 +26,11 @@ function Form({movieSearch}) {
 
   return (
     <div>
-        <form onSubmit={handleSubmit}>
+        <StyledForm onSubmit={handleSubmit}>
             <input type="text" value={form.searchTerm} onChange={handleChange} />
             <input type="submit" value="search" />
-        </form>
+        
+        </StyledForm>
     </div>
   )
 }

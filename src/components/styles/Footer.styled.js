@@ -5,7 +5,7 @@ export const StyledFooter = styled.footer`
     padding: 100px 0 60px;
     background-color: Black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     border-radius: 0 0 20px 20px;
 
